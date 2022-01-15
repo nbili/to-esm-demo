@@ -1,0 +1,22 @@
+{
+  "name": "to-esm-demo",
+  "version": "1.0.0",
+  "description": "esm demo for node.js",
+  "type": "module",
+  "bin": {
+    "esm-go": "index.js"
+  },
+  "exports": "./index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "node",
+    "esm"
+  ],
+  "author": "nbili",
+  "license": "ISC",
+  "engines": {
+    "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+  }
+}
